@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="keywords" content="footer, address, phone, icons" />
+<title>Kambew</title>
+<link rel="stylesheet" href="css/style.css">
+<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+
+<div class="profile">
+<img class="center" src="img/william.jpg" style="width: 30%;">
+</div>
+
+
+<div  class="title">
+<h1>Kambew</h1>
+<p>@william_vapers11</p>
+</div>
+
+<div onclick="location.href='https://instagram.com/william_vapers11/';" class="box">
+  <div class="icon">
+  <img src="img/instagram.png">
+  </div>
+  <h3>My Instagram</h3>
+</div>
+
+<div onclick="location.href='https://drive.google.com/drive/mobile/folders/13fiWxjv3WOTrF289ovmoKj9BybDudEKV';" class="box">
+  <div class="icon">
+  <img src="img/drive.png">
+  </div>
+  <h3>Free Editing Foto</h3>
+</div>
+
+<footer class="footer">&copy; Copyright 2021 | Kambew</footer>
+
+<script type="text/javascript">
+
+$(document).delegate("div", "click", function() {
+   window.location = $(this).find("a").attr("href");
+});
+
+</script>
+
+</body>
+</html>
